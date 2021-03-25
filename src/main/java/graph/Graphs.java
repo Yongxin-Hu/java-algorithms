@@ -91,6 +91,4 @@ final public class Graphs {
         if (from < 0 || to < 0 || from > vertices - 1 || to > vertices - 1)
             throw new IndexOutOfBoundsException("点的范围在 0 - " + (vertices - 1));
     }
-
-    
 }
